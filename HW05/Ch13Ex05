@@ -1,0 +1,26 @@
+/* Mohamed Elfergani
+ * CS 211
+ * 5/16/2021 
+ */
+
+5. To which complexity class does the following algorithm belong?
+	public static void mystery2(int[] list) {
+    for (int i = 0; i < list.length / 2; i++) {
+        int j = list.length – 1 – i;
+        int temp = list[i];
+        list[i] = list[j];
+        list[j] = temp;
+    }
+}
+
+A. Linear or O(N) since algorithms have runtimes that are directly proportional to N as well as because the loop repeats
+roughly N/2 times, and the operations in the loop belong to the O(N) time complexity class
+  
+  
+  
+  
+  
+  
+
+
+  
